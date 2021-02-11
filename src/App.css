@@ -49,19 +49,29 @@ body{
   background-color: azure;
 }
 .image-sorter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   background-color: aqua;
   border-radius: 10px;
   border: inset 3px black;
   width: 90%;
   margin: 0 auto 10px auto;
+  font-size: 1.2rem;
+  padding: 10px;
 }
-.image-sorter button{
+
+ .image-sorter button{
   padding: 5px;
-  margin: 10px;
-}
+  
+} 
 .image-sorter select{
   padding: 5px;
   width: 200px;
+  margin-left: 5%;
+  font-size: 1.2rem;
+  margin-bottom: 2%;
+  
 }
 .image-view{
   display: flex;
